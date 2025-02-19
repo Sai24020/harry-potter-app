@@ -53,6 +53,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
            ],
+
+           
 📌 Nästa steg: Testa om Tailwind fungerar
 Öppna app/page.js
 Starta om Next.js-servern:
