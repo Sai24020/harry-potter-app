@@ -29,6 +29,12 @@ export default function Home() {
 
   return (
     <div className="container mx-auto p-4 bg-gradient-to-b from-gray-200 to-gray-300 min-h-screen">
+              <img 
+        alt=''
+        height={30}
+        width={1300}
+        src='https://res.cloudinary.com/generative-ai-demos/image/upload/f_auto/q_auto/v1/website_assets/samples/remove_replace/rr_22.jpg'
+       />
       <header className="text-center mb-6">
         <h1 className="text-3xl font-bold mt-4">Our History</h1>
         <p className="mt-4 text-lg max-w-2xl mx-auto">
@@ -37,7 +43,8 @@ export default function Home() {
       </header>
       
       <section className="my-12 text-center">
-        <h2 className="text-2xl font-semibold">Pies of the Week</h2>
+
+       <h2 className="text-2xl font-semibold">Pies of the Week</h2>
         <p className="text-lg mb-6">Enjoy a weekly selection of our favorite pies</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {images.slice(0, 3).map((image) => (
