@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
@@ -22,7 +22,7 @@ export default function CharacterList() {
           <div key={char.id} className="border p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-4 text-red-500">{char.character}</h2>
             <Image
-                className="grid gap-4 m-3 p-4 rounded w-full max-w-[360px] shadow-xl rounded-md"
+                className="grid gap-4 m-3 p-4 rounded-full w-full max-w-[360px] shadow-xl object-contain"
                 src={char.image}
                 height={200} 
                 width={200}
@@ -37,3 +37,4 @@ export default function CharacterList() {
     </div>
   );
 }
+*/
